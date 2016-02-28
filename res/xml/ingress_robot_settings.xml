@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+     <PreferenceCategory
+        android:key="Robot"
+        android:title="@string/robot_category" >
+        <PreferenceScreen 
+            android:enabled="true"
+            android:key="stop_robot"
+            android:title="@string/stop_title" />
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="hack_category"
+        android:title="@string/hack_category" >
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="hack"
+            android:summary="@string/hack_summary"
+            android:title="@string/hack_title" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/hack_number"
+            android:key="hack_number"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/hack_number" />
+        <EditTextPreference
+            android:dialogTitle="@string/portal_dialog_title"
+            android:key="portal_1"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/portal_title_1" />
+        <EditTextPreference
+            android:dialogTitle="@string/portal_dialog_title"
+            android:key="portal_2"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/portal_title_2" />
+        <EditTextPreference
+            android:dialogTitle="@string/portal_dialog_title"
+            android:key="portal_3"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/portal_title_3" />
+        <EditTextPreference
+            android:dialogTitle="@string/portal_dialog_title"
+            android:key="portal_4"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/portal_title_4" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="drop_category"
+        android:title="@string/drop_category" >
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="drop"
+            android:summary="@string/drop_summary"
+            android:title="@string/drop_title" />
+         
+         <CheckBoxPreference
+            android:enabled="true"
+            android:key="drop_key"
+            android:summary="@string/drop_key_summary"
+            android:title="@string/drop_key_title" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/drop_number"
+            android:key="drop_number"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/drop_number" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="recycle_category"
+        android:title="@string/recycle_category" >
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="recycle"
+            android:summary="@string/recycle_summary"
+            android:title="@string/recycle_title" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/recycle_number"
+            android:key="recycle_number"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/recycle_number" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="acquire_category"
+        android:title="@string/acquire_category" >
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="acquire"
+            android:summary="@string/acquire_summary"
+            android:title="@string/acquire_title" />
+        <EditTextPreference
+            android:dialogTitle="@string/acquire_number"
+            android:key="acquire_number"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/acquire_number" />
+        <EditTextPreference
+            android:dialogTitle="@string/acquire_pos_dialog_title"
+            android:key="acquire_pos"
+            android:persistent="true"
+            android:singleLine="false"
+            android:title="@string/acquire_pos_title" />
+      </PreferenceCategory>
+    
+
+</PreferenceScreen>

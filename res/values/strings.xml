@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ingress Robot</string>
+    <string name="app_ver_summary">1.0.0</string>
+ 
+    <!-- Robot -->
+    <string name="robot_category">Robot</string>
+    <string name="stop_title">Stop robot</string>
+    
+    <!-- Auto hack -->
+    <string name="hack_category">Hack</string>
+    <string name="hack_summary">start to hack</string>
+    <string name="hack_title">Run Hack</string>
+    <string name="hack_number">Hack number</string>
+    <string name="portal_title_1">Portal_1</string>
+    <string name="portal_title_2">Portal_2</string>
+    <string name="portal_title_3">Portal_3</string>
+    <string name="portal_title_4">Portal_4</string>
+    <string name="portal_dialog_title">Set Position</string>
+    
+    <!-- Auto drop -->
+    <string name="drop_category">Drop</string>
+    <string name="drop_summary">start to drop</string>
+    <string name="drop_number">Drop number</string>
+    <string name="drop_title">Run Drop</string>
+    <string name="drop_key_summary">start to drop key</string>
+    <string name="drop_key_title">Run Drop Key</string>
+    
+     <!-- Auto recycle -->
+    <string name="recycle_category">Recycle</string>
+    <string name="recycle_summary">start to recycle</string>
+    <string name="recycle_number">Recycle number</string>
+    <string name="recycle_title">Run Recycle</string>
+    
+     <!-- Auto acquire -->
+    <string name="acquire_category">Acquire</string>
+    <string name="acquire_summary">start to acquire</string>
+    <string name="acquire_number">Acquire number</string>
+    <string name="acquire_title">Run Acquire</string>
+    <string name="acquire_pos_title">Acquire position</string>
+    <string name="acquire_pos_dialog_title">Set Position</string>
+    
+    
+</resources>
